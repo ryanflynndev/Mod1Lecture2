@@ -16,5 +16,15 @@ class User
         USERS << name 
     end
 
+    def self.count 
+        @@count 
+    end 
+
+    def self.users 
+        USERS 
+    end
+
 
 end
+
+binding.pry 
